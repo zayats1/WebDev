@@ -1,0 +1,33 @@
+
+.main-menu>.caption {
+  color: rgb(43, 41, 41);
+}
+
+.main-menu>.list {
+  background-color: rgb(226, 248, 211);
+}
+
+.main-menu>.list>li {
+  box-shadow: 0px 2px 0px 0px rgb(119, 119, 119);
+  color: rgb(85, 116, 2);
+  font-size: large;
+  cursor: pointer;
+}
+.main-menu > .list> li:first-child{
+  margin-left: 2px;
+}
+
+.main-menu>.list > li:hover{
+  margin-left: 15px;
+}
+
+.categorions>.list>li {
+  box-shadow: 0px 2px 0px 0px rgb(119, 119, 119);
+  color: rgb(85, 116, 2);
+  font-size: medium;
+  cursor: pointer;
+}
+
+.categorions>.list>li:hover {
+  margin-left: 15px;
+}
