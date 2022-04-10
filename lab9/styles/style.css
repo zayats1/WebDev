@@ -1,0 +1,36 @@
+body {
+    padding: 12px;
+    background-color: rgb(251, 253, 228);
+}
+
+@media screen and (min-width:300px) {
+    header>h2 {
+        background-color: rgba(131, 5, 22, 0.185);
+    }
+
+    .content {
+        display: flexbox;
+        width: 100%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular',
+            'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        font-size: medium;
+        text-align: justify;
+        padding-right: 4px;
+
+    }
+
+
+    .content>.first-col>img {
+        float: left;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        padding: 4px 12px 1px 8px;
+    }
+
+    footer {
+        font-size: small;
+        text-align: center;
+    }
+}
