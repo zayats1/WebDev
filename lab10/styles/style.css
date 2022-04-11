@@ -1,9 +1,40 @@
-header{
-    
-}
+header {}
 
 .container {
     display: flexbox;
 }
 
-.container>div {}
+container>div {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+@media (max-width: 800px) {
+    container>div {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    container>div {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+.first-colum {}
+
+
+
+.second-colum {}
+
+
+
+
+.third-colum {}
+
+
+.fourth-colum {}
