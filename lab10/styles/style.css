@@ -1,11 +1,12 @@
 header {}
 
 .container {
-    display: flexbox;
+    display: flex;
 }
 
 container>div {
     flex: 25%;
+    flex-direction: row;
     max-width: 25%;
     padding: 0 4px;
 }
@@ -13,28 +14,29 @@ container>div {
 @media (max-width: 800px) {
     container>div {
         flex: 50%;
+        flex-direction: column;
         max-width: 50%;
+        height: auto;
     }
 }
 
 @media (max-width: 500px) {
     container>div {
         flex: 100%;
+        flex-direction: column;
         max-width: 100%;
+        height: 300px;
     }
 }
 
+.top-big-image {
+    flex-grow: 3;
+}
 
-.first-colum {}
+.top-small-img {
+    align-self: flex-end;
+}
 
+.bottom-big-img {}
 
-
-.second-colum {}
-
-
-
-
-.third-colum {}
-
-
-.fourth-colum {}
+.bottom-small-img {}
