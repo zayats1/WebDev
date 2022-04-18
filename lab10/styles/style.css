@@ -1,42 +1,25 @@
-header {}
+header>h1{
+    text-align: center;
+    font-family: Caladea;
+    font-style:oblique;
+    color: white;
 
+    border-radius: 12px;
+    background-color: rgb(19, 6, 136);
+}
 .container {
     display: flex;
-}
-
-container>div {
     flex: 25%;
-    flex-direction: row;
-    max-width: 25%;
-    padding: 0 4px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1800px;
+    padding: 20px;
 }
 
-@media (max-width: 800px) {
-    container>div {
-        flex: 50%;
-        flex-direction: column;
-        max-width: 50%;
-        height: auto;
-    }
+.container>img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 10px;
 }
-
-@media (max-width: 500px) {
-    container>div {
-        flex: 100%;
-        flex-direction: column;
-        max-width: 100%;
-        height: 300px;
-    }
-}
-
-.top-big-image {
-    flex-grow: 3;
-}
-
-.top-small-img {
-    align-self: flex-end;
-}
-
-.bottom-big-img {}
-
-.bottom-small-img {}
