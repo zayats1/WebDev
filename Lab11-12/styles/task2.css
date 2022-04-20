@@ -1,0 +1,66 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/1251069.jpg);
+}
+
+.item1 {
+    grid-area: header;
+}
+
+.item1>h1 {
+    text-align: left;
+    margin-left: 24px;
+}
+
+.item2 {
+    grid-area: menu;
+    background-color: rgba(255, 230, 0, 0.199);
+    width: 100px;
+}
+
+.item2>ul>li {
+    font-size: large;
+}
+
+.item3 {
+    grid-area: main;
+    background-color: rgba(255, 230, 0, 0.103);
+    text-align: left;
+}
+
+.item3>p {
+    font-size: medium;
+}
+
+.item4 {
+    grid-area: right;
+    background-color: rgba(255, 230, 0, 0.103);
+}
+
+.item4>img {
+    width: 400px;
+    height: 600px;
+    margin-right: 8px;
+    border-radius: 24px;
+}
+
+.item5 {
+    grid-area: footer;
+}
+
+.item5>p {
+    font-size: small;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main main right'
+        'menu footer footer footer footer footer';
+}
+
+.grid-container>div {
+    text-align: center;
+    padding: 20px 0;
+}
