@@ -1,0 +1,38 @@
+.mask {
+    mask-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b8/Other-linux-logo.svg);
+    -webkit-mask-image: url(https://cdn-icons-png.flaticon.com/512/98/98267.png);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+
+}
+
+
+#main>h1 {
+    color: white;
+    font-size: 10vw;
+    background: url(https://scontent.flwo3-1.fna.fbcdn.net/v/t39.30808-6/239543069_929065761009784_7277879917405008315_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=tBdw6EboFuwAX9Rrtyi&tn=Ogtw-f6cFiETQLmo&_nc_ht=scontent.flwo3-1.fna&oh=00_AT9NAkK_JKanO-qudZVWjHdl_Z1f04lV5MQpS9NpL-1dCw&oe=6266AD66);
+}
+
+#main {
+    text-align: center;
+}
+
+
+#main>.blend>h2 {
+    color: #000;
+    font-size: 10vw;
+    font-weight: 700;
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: url(https://scontent.flwo3-1.fna.fbcdn.net/v/t39.30808-6/239543069_929065761009784_7277879917405008315_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=tBdw6EboFuwAX9Rrtyi&tn=Ogtw-f6cFiETQLmo&_nc_ht=scontent.flwo3-1.fna&oh=00_AT9NAkK_JKanO-qudZVWjHdl_Z1f04lV5MQpS9NpL-1dCw&oe=6266AD66);
+    background-size: cover;
+    background-position: center;
+}
+
+
+img {
+    width: 50%;
+    height: auto;
+}
