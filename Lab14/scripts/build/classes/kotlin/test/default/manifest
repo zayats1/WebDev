@@ -1,8 +1,0 @@
-abi_version=1.6.0
-builtins_platform=JS
-compiler_version=1.6.20
-depends=org.zayats1\:lab14 org.jetbrains.kotlinx\:kotlinx-html kotlin-test kotlin
-ir_version=1.0.0
-jsOutputName=lab14-test
-metadata_version=1.4.1
-unique_name=org.zayats1\:lab14_test
