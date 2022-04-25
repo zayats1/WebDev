@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(212, 248, 222);
+    padding-left: 10pt;
+    padding-right: 10pt;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+        Verdana, sans-serif;
+}
+
+h2,
+h1 {
+    color: blue;
+    font-weight: normal;
+    text-align: center;
+}
+
+div {
+    border-style: solid;
+    border-width: 5pt;
+    margin-bottom: 10pt;
+    background-color: azure;
+    display: flex;
+    font-size: medium;
+}
+
+img {
+    width: 200pt;
+    height: 300pt;
+    margin-right: 10pt;
+    border-color: aquamarine;
+}
+
+p{
+    margin-top: 5pt;
+}
+
+.action{
+    padding-left: 5pt;
+    margin-bottom: 5pt;
+}
+
+.firstDiscountItem {
+    border-color: coral;
+    font-weight: bold;
+}
+
+.discount{
+    text-align: center;
+    font-size: xx-large;
+    color: coral;
+}
+
+.price{
+    font-size: x-large;
+    font-weight: bold;
+    background-color: gold;
+    margin: 5pt;
+
+}
+
+.textField{
+    border-style: none;
+    display: block;
+}
+.gif{
+    float: right;
+    width: 200pt;
+    height: 200pt;
+}

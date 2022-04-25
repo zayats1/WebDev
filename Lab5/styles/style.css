@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(to bottom, darkviolet, darkblue) fixed;
+    font-family: 'Ubuntu', 'Caladea', 'Lucida sans'sans;
+}
+
+.panel {
+    background-color: hsla(33, 78%, 91%, 0.555);
+    border-radius: 20pt;
+    display: block;
+    margin-bottom: 5pt;
+}
+
+.caption {
+    text-align: center;
+}
+
+.image {
+    height: 300pt;
+    width: 400pt;
+    padding: 5px;
+    border-radius: 10pt;
+}
+
+article {
+    background-color: aliceblue;
+    display: block;
+    text-align: justify;
+    border-radius: 20pt;
+    padding: 8pt;
+    margin: 15pt;
+}
+
+
+.container {
+    background: none;
+    display: grid;
+    scroll-behavior: smooth;
+    grid-template-columns: repeat(3, 450pt);
+}
+
+.clock {
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 4pt;
+    padding-right: 8pt;
+    top: 1pt;
+    right: 8pt;
+}
+
+
+.dock {
+    text-align: center;
+    display: block;
+    padding: 2pt;
+    font-size: large;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}

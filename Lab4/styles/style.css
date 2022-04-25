@@ -1,0 +1,18 @@
+.padding {
+    padding: 30pt;
+}
+
+.paddingCustom {
+    padding: 25px 50px 75px;
+}
+
+.boxSizing {
+    width: 300pt;
+    padding: 25pt;
+    box-sizing: border-box;
+    border-width: 10pt;
+    border-style: dotted;
+    background-color: cadetblue;
+    border-color: darkorchid;
+    border-radius: 10pt;
+}

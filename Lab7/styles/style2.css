@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(212, 248, 222);
+    padding-left: 10pt;
+    padding-right: 10pt;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+        Verdana, sans-serif;
+}
+
+h2,
+h1 {
+    color: blue;
+    font-weight: normal;
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    .head th{
+        font-size: large;
+        padding: 0 6%;
+    }
+}
+
+tr {
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 10px;
+    background-color: azure;
+    display: flex;
+    font-size: medium;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(203, 253, 253);
+}
+
+tr td {
+    padding: 0.5%;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+    border-color: aquamarine;
+    display: block;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: auto;
+}
+
+a {
+    text-decoration: double;
+    text-decoration: wavy;
+}
+a:link {
+    background-color: rgb(143, 238, 255);
+}
+
+a:hover {
+    border: 4px rgb(128, 128, 128) inset;
+}
+
+a:active {
+    border: 4px rgb(128, 128, 128) outset;
+}
+
+a:visited {
+    background-color: rgb(161, 255, 158);
+}
+
+
+.firstDiscountItem {
+    border-color: coral;
+    font-weight: bold;
+}
+
+.discount {
+    font-size: xx-large;
+    color: coral;
+}
+
+.price {
+    font-size: x-large;
+    font-weight: bold;
+    background-color: gold;
+
+}
+
+.gif {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+#credits {
+    float: right;
+}
