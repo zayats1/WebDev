@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-tsc scripts/*.ts
+tsc scripts/*.ts --target es2022
