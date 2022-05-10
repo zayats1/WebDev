@@ -22,6 +22,7 @@ fun main() {
         }
 
         document.title = "hello"
+
         console.log("button was clicked")
         showPhoto(currentPhotoIndex)
     })

@@ -1,0 +1,21 @@
+body {
+      display: block;
+}
+
+h1{
+      text-align: center;
+}
+
+
+#gallery {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+}
+
+#gallery img {
+      width: 400px;
+      height: 400px;
+      margin: 40px;
+}
+
