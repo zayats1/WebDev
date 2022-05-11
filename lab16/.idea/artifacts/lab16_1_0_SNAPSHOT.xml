@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="lab16-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="lab16-1.0-SNAPSHOT.jar">
+      <element id="module-output" name="lab16.main" />
+    </root>
+  </artifact>
+</component>

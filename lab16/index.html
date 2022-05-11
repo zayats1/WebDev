@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta charset = "UTF-8">
+	<meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<title>GET YOUR RESUME</title>
+</head>
+
+<body>
+	<div>
+		<form id = "my-form" action = "test.html" method = "get">
+			<div>
+				<label for = "name"> Name </label>
+				<input type = "text" name = "name" id = "name" required>
+			</div>
+			
+			<div>
+				<label for = "cars">Choose a car:</label>
+				<select id = "cars" name = "cars">
+					<option value = "lada">Lada</option>
+					<option value = "zhiguli">Zhiguli</option>
+					<option value = "fiat">Fiat</option>
+					<option value = "audi">Audi</option>
+					<option value = "tractor">FreakingTractor</option>
+				</select>
+			</div>
+			
+			<div>
+				<h1>Select your worst enemy</h1>
+				<ol>
+					<li><input type = "radio" id = "html" name = "worst-enemy" value = "HTML">
+						<label for = "html">HTML</label><br></li>
+					<li><input type = "radio" id = "css" name = "worst-enemy" value = "CSS">
+						<label for = "css">CSS</label><br></li>
+					<li><input type = "radio" id = "javascript" name = "worst-enemy" value = "JavaScript">
+						<label for = "javascript">JavaScript</label></li>
+				</ol>
+			</div>
+			
+			<div>
+				<h2>Select what vehicle you have</h2>
+				<input type = "checkbox" id = "vehicle1" name = "vehicles" value = "Bike">
+				<label for = "vehicle1"> I have a bike</label><br>
+				<input type = "checkbox" id = "vehicle2" name = "vehicles" value = "Car">
+				<label for = "vehicle2"> I have a car</label><br>
+				<input type = "checkbox" id = "vehicle3" name = "vehicles" value = "Boat">
+				<label for = "vehicle3"> I have a boat</label><br><br>
+			</div>
+			
+			<div>
+				<h2>Your orientation</h2>
+				<input type = "checkbox" id = "orientation" name = "orientation" value = "ok natural" required>
+				<label for = "orientation"> I have traditional orientation </label><br>
+			</div>
+			
+			<div>
+				<h2>Kissel like Kissel</h2>
+				<input type = "checkbox" id = "kissel" name = "kissel" value = "Mary Kissel like eating kissel"
+					   required>
+				<label for = "kissel"> I like eating kissel</label><br>
+			</div>
+			
+			<div>
+				<button type = "submit"> Submit</button>
+				<button type = "reset"> Reset</button>
+			</div>
+		
+		</form>
+	</div>
+	<script src = "build/distributions/lab16.js"></script>
+</body>
+
+</html>

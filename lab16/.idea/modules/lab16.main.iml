@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="lab16:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="me.bogdandev" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JavaScript " allPlatforms="JS []" useProjectSettings="false" isTestModule="false" externalProjectId="lab16">
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xir-module-name=me.bogdandev:lab16 -Xir-only -Xir-per-module-output-name=lab16 -Xir-produce-klib-dir" />
+        </compilerSettings>
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="metaInfo" arg="true" />
+            <flagArg name="noStdlib" arg="true" />
+            <flagArg name="sourceMap" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="main" arg="call" />
+            <stringArg name="moduleKind" arg="umd" />
+            <stringArg name="outputFile" arg="$MODULE_DIR$/../../build/classes/kotlin/main" />
+            <stringArg name="sourceMapEmbedSources" arg="never" />
+            <stringArg name="target" arg="v5" />
+            <stringArg name="apiVersion" arg="1.6" />
+            <stringArg name="languageVersion" arg="1.6" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths" />
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../build/classes/kotlin/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../build/externals/lab16/src" />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/kotlin" type="kotlin-source" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="kotlin-resource" />
+    </content>
+    <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-html-js:klib:0.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.6.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20" level="project" />
+  </component>
+</module>
