@@ -1,0 +1,103 @@
+body {
+    background: linear-gradient(to bottom, darkviolet, darkblue) fixed;
+    font-family: 'Ubuntu', 'Caladea', 'Lucida sans' sans;
+}
+
+.panel {
+    background-color: hsla(33, 78%, 91%, 0.555);
+    border-radius: 20pt;
+    margin-bottom: 5pt;
+}
+
+.caption {
+    text-align: center;
+}
+
+#gallery {
+    background: none;
+    display: flex;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+    justify-content: center;
+    width: 100%
+}
+
+
+
+
+@media (min-width: 440px) {
+    .image {
+        height: 225pt;
+        width: 325pt;
+        padding: 5px;
+        border-radius: 10pt;
+    }
+
+    article {
+        background-color: aliceblue;
+        display: block;
+        text-align: justify;
+        border-radius: 20pt;
+        width: 450px;
+        height: fit-content;
+        padding: 8pt;
+        margin: 15pt;
+    }
+
+}
+
+
+@media (min-width: 1080px) {
+    .image {
+        height: 300pt;
+        width: 400pt;
+        padding: 5px;
+        border-radius: 10pt;
+    }
+
+    article {
+        background-color: aliceblue;
+        display: block;
+        text-align: justify;
+        border-radius: 20pt;
+        width: 540px;
+        height: fit-content;
+        padding: 8pt;
+        margin: 15pt;
+    }
+
+}
+
+@media (min-width: 1750px) {
+    .image {
+        height: 300pt;
+        width: 400pt;
+        padding: 5px;
+        border-radius: 10pt;
+    }
+
+    article {
+        background-color: aliceblue;
+        display: block;
+        text-align: justify;
+        border-radius: 20pt;
+        width: 550px;
+        height: fit-content;
+        padding: 8pt;
+        margin: 15pt;
+    }
+
+}
+
+
+.dock {
+    text-align: center;
+    display: block;
+    padding: 2pt;
+    font-size: large;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
