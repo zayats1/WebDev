@@ -1,0 +1,12 @@
+:root {
+    --main-bg-color: rgb(42, 165, 114);
+
+}
+
+.block {
+    background-color: var(--main-bg-color);
+}
+
+.linear {
+    background-color: var(--main-bg-color);
+}
